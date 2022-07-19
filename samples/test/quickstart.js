@@ -29,7 +29,7 @@ const execSync = cmd => cp.execSync(cmd, {encoding: 'utf-8'});
 
 const cwd = path.join(__dirname, '..');
 
-const client = new {DataformClient}();
+const client = new DataformClient();
 
 describe('Quickstart', () => {
   let projectId;
