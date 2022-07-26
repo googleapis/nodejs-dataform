@@ -17,11 +17,12 @@
 // ** All changes to this file may be overwritten. **
 
 import * as v1alpha2 from './v1alpha2';
+import * as v1beta1 from './v1beta1';
 
 const DataformClient = v1alpha2.DataformClient;
 type DataformClient = v1alpha2.DataformClient;
 
-export {v1alpha2, DataformClient};
-export default {v1alpha2, DataformClient};
+export {v1alpha2, v1beta1, DataformClient};
+export default {v1alpha2, v1beta1, DataformClient};
 import * as protos from '../protos/protos';
 export {protos};
